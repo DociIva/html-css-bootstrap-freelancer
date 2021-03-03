@@ -2,16 +2,24 @@
 
 /*header*/
 .header-top {
-    height: 100px;
+    height: 60px;
     background:#2c3e50 ;
+    color: white;
+    text-align: center;
 }
+
 .header-bottom {
-    height: 300px;
+    height: 200px;
     background:#1abc9c;
+    color: white;
+    text-align: center;
 }
+
 /*MAIN HERO*/
 h2 {
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 /*card*/
 .card-1 {
@@ -50,8 +58,21 @@ h2 {
     border-radius: 20px;
     margin-bottom: 10px;
 }
-/*media per le card quando sono sul tablet padding di lato*/
+/*media per il tablet*/
 @media screen and (min-width:768px) {
-    
+    /*spazio del header*/
+    .header-bottom {
+        height: 300px;
+    }
+
+}
+
+/*media per il pc*/
+@media screen and (min-width:970px) {
+    /*spazio del header*/
+    .header-bottom {
+        height: 500px;
+        
+    }
    
 }
