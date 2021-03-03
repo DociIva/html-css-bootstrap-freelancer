@@ -21,7 +21,7 @@ h2 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-/*card*/
+/*CARD COLORI*/
 .card-1 {
     height: 200px;
     background: #ba4b63;
@@ -58,13 +58,24 @@ h2 {
     border-radius: 20px;
     margin-bottom: 10px;
 }
+
+/*SEZIONE ABOUT*/
+.about {
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background: #1abc9c;
+}
+
 /*media per il tablet*/
 @media screen and (min-width:768px) {
     /*spazio del header*/
     .header-bottom {
         height: 300px;
     }
-
+    
 }
 
 /*media per il pc*/
