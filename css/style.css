@@ -3,41 +3,55 @@
 /*header*/
 .header-top {
     height: 100px;
-    background: #2c3e50;  
+    background:#2c3e50 ;
 }
 .header-bottom {
     height: 300px;
-    background: #1abc9c;
+    background:#1abc9c;
 }
-.hero {
-    height: 500px;
+/*MAIN HERO*/
+h2 {
+    text-align: center;
 }
-.col-xs-10 {
-    height: 30px;
-    background: violet;
-}
-/*COLORE DEI 6 BOX NEL HERO*/
-.hero .uno {
-    height: 100px;
+/*card*/
+.card-1 {
+    height: 200px;
     background: #ba4b63;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
-.hero .due {
-    height: 100px;
-    background: #1ea4b6;
+.card-2 {
+    height: 200px;
+    background:#1ea4b6;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
-.hero .tre {
-    height: 100px;
-    background: black;
+.card-3 {
+    height: 200px;
+    background: #000;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
-.hero .qua {
-    height: 100px;
-    background: #1c83c1;
+.card-4 {
+    height: 200px;
+    background:#1c83c1;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
-.hero .cin {
-    height: 100px;
+.card-5 {
+    height: 200px;
     background: #0e38b5;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
-.hero .sei {
-    height: 100px;
+.card-6 {
+    height: 200px;
     background: #ccb2a3;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+/*media per le card quando sono sul tablet padding di lato*/
+@media screen and (min-width:768px) {
+    
+   
 }
