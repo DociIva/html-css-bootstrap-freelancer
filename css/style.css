@@ -60,7 +60,7 @@ h2 {
 }
 
 /*SEZIONE ABOUT*/
-.about {
+.bg-about {
     height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -68,6 +68,26 @@ h2 {
     color: white;
     background: #1abc9c;
 }
+/*CONTACT*/
+.contact {
+    height: 400px;
+}
+.form-1 {
+    height: 20px;
+    background: #ba4b63;
+    margin-bottom: 10px;
+}
+.form-2 {
+    height: 20px;
+    background: #ba4b63;
+    margin-bottom: 10px;
+}
+.form-3 {
+    height: 20px;
+    background: #ba4b63;
+    margin-bottom: 10px;
+}
+/*LOCATION*/
 
 /*media per il tablet*/
 @media screen and (min-width:768px) {
