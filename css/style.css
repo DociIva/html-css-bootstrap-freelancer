@@ -1,18 +1,40 @@
-/*COLORI E VARIE COSE*/
-
-/*header*/
-.header-top {
-    height: 60px;
-    background:#2c3e50 ;
-    color: white;
-    text-align: center;
+/*GENERAL*/
+body {
+    padding-top: 60px;
 }
+/*HEADER*/
+/*SIDEBAR*/
 
-.header-bottom {
-    height: 200px;
+.main-header .bl-navbar { /*qua si vince per specificità*/
+    background: #2c3e50;
+    color: #fff;
+}
+.main-header .bl-brand {
+    height: 70px;
+    line-height: 60px;
+    padding: 0 15px;
+    font-size: 22px;
+    color: #fff;
+    border: 0;
+}
+.main-header .bl-nav > li > a{
+    line-height: 60px;
+    padding: 0 15px;
+    color: #fff;
+    transition: background 3s;
+}
+.main-header .bl-nav > li > a:hover {
+    background: rgba(58, 84,109, 1);
+}
+/*HEADER-CONTENT*/
+.header-content {
     background:#1abc9c;
     color: white;
     text-align: center;
+}
+.header-content img {
+    width: 250px;
+    padding-top: 30px;
 }
 
 /*MAIN HERO*/
