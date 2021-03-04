@@ -36,7 +36,12 @@ body {
     width: 250px;
     padding-top: 30px;
 }
-
+.header-content hr {
+    border-top: 3px solid white;
+}
+.header-content i {
+    font-size: 30px;
+}
 /*MAIN HERO*/
 h2 {
     text-align: center;
@@ -146,18 +151,14 @@ h2 {
 /*media per il tablet*/
 @media screen and (min-width:768px) {
     /*spazio del header*/
-    .header-bottom {
-        height: 300px;
-    }
+    
+
     
 }
 
 /*media per il pc*/
 @media screen and (min-width:970px) {
     /*spazio del header*/
-    .header-bottom {
-        height: 500px;
-        
-    }
+    
    
 }
