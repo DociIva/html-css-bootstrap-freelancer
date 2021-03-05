@@ -2,6 +2,7 @@
 body {
     padding-top: 60px;
 }
+
 /*HEADER*/
 /*SIDEBAR*/
 .main-header .bl-navbar { /*qua si vince per specificità*/
@@ -44,7 +45,7 @@ body {
 }
 .header-content.divide { /*vince per specificità*/
     max-width: 300px;
-}
+} 
 .header-content .bar-star-1 {
     width: 100px;
     position: relative;
@@ -57,49 +58,90 @@ body {
     bottom: 35px;
     left: 75px;
 }
+/*liste inline*/
+.liste-inline li {  /*da mettere ul*/
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font-size: 18px;  
+}
 /*MAIN HERO*/
-h2 {
+.main-hero {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+}
+img {
+    width: 270px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.main-hero h2 {   
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+/*STELLA*/
+.main-hero i {
+    font-size: 30px;
+    color: #2c3e50;
+}
+.main-hero hr {
+    border-top: 3px solid #2c3e50;
+}
+.main-hero.divide { /*vince per specificità*/
+    max-width: 300px;
+} 
+.main-hero .bar-star-1 {
+    width: 100px;
+    position: relative;
+    top: 40px;
+    right: 80px;
+}
+.main-hero .bar-star-2 {
+    width: 100px;
+    position: relative;
+    bottom: 35px;
+    left: 75px;
 }
 /*CARD COLORI*/
+/*
 .card-1 {
-    height: 200px;
     background: #ba4b63;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 .card-2 {
     height: 200px;
-    background:#1ea4b6;
-    border-radius: 20px;
+    background: #1ea4b6;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 .card-3 {
     height: 200px;
     background: #000;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 .card-4 {
     height: 200px;
-    background:#1c83c1;
-    border-radius: 20px;
+    background: #1c83c1;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 .card-5 {
     height: 200px;
     background: #0e38b5;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 .card-6 {
     height: 200px;
     background: #ccb2a3;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
+*/
 
 /*SEZIONE ABOUT*/
 .bg-about {
