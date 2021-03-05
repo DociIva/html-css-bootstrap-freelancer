@@ -1,6 +1,6 @@
 /*GENERAL*/
 body {
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
 /*HEADER*/
@@ -44,7 +44,7 @@ body {
     font-size: 30px;
 }
 .header-content.divide { /*vince per specificità*/
-    max-width: 300px;
+   /* max-width: 300px; */
 } 
 .header-content .bar-star-1 {
     width: 100px;
@@ -63,7 +63,7 @@ body {
     display: inline-block;
     list-style: none;
     padding: 5px;
-    font-size: 18px;  
+    font-weight: 300;
 }
 /*MAIN HERO*/
 .main-hero {
@@ -107,7 +107,6 @@ img {
 }
 /*SEZIONE ABOUT*/
 .bg-about {
-    height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -118,7 +117,7 @@ img {
     font-size: 16px;
     font-weight: bold;
 }
-/*STELLA*/
+/*ABOUT STELLA*/
 .bg-about i {
     font-size: 30px;
 }
@@ -144,6 +143,10 @@ img {
 .about-text {
   text-align: left;
   padding: 10px 30px; 
+}
+/*ABOUT BOTTONE*/
+.bottone {
+    padding-bottom: 30px;
 }
 /*CONTACT*/
 .contact {
