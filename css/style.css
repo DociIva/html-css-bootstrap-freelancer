@@ -146,9 +146,39 @@ img {
 .bottone {
     padding-bottom: 30px;
 }
+.bottone .btn{
+    background:#1abc9c;
+    color: white;
+    box-shadow: none;
+}
+.bottone .btn:hover {
+    background: white;
+    color: #1abc9c;
+}
 /*CONTACT*/
 .contact {
-    height: 400px;
+    text-align: center;
+    color: #2c3e50;
+}
+/*CONTENT STELLA*/
+
+.contact i {
+    font-size: 30px;
+}
+.contact hr {
+    border-top: 3px solid #2c3e50;
+}
+.contact .bar-star-1 {
+    width: 100px;
+    position: relative;
+    top: 40px;
+    right: 80px;
+}
+.contact .bar-star-2 {
+    width: 100px;
+    position: relative;
+    bottom: 35px;
+    left: 75px;
 }
 .form-1 {
     height: 20px;
