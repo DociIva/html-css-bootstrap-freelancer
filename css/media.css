@@ -1,7 +1,14 @@
 /*media per il tablet*/
 @media screen and (min-width:768px) {
     /*spazio del header*/
-    
+    .bl-contatti {
+        width: 500px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    } 
+    .bl-forms {
+        width: 100%;
+    } 
 
     
 }
@@ -9,7 +16,5 @@
 /*media per il pc*/
 @media screen and (min-width:970px) {
     /*spazio del header*/
-   .about-h2 {
-
-   }
+    
 }

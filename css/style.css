@@ -117,7 +117,7 @@ img {
 .bg-about hr {
     border-top: 3px solid #fff;
 }
-.bg-about.divide { /*vince per specificità*/
+.bg-about.divide { /*vince per specificità guarda bene se e da tenere*/
     max-width: 300px;
 } 
 .bg-about .bar-star-1 {
@@ -157,11 +157,12 @@ img {
 }
 /*CONTACT*/
 .contact {
-    text-align: center;
     color: #2c3e50;
 }
 /*CONTENT STELLA*/
-
+.contact .divide {
+    text-align: center;
+}
 .contact i {
     font-size: 30px;
 }
@@ -180,20 +181,25 @@ img {
     bottom: 35px;
     left: 75px;
 }
-.form-1 {
-    height: 20px;
-    background: #ba4b63;
-    margin-bottom: 10px;
+/*FORMS*/
+.bl-contatti {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
-.form-2 {
-    height: 20px;
-    background: #ba4b63;
-    margin-bottom: 10px;
+.bl-forms {
+    width: 50%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid black;
 }
-.form-3 {
-    height: 20px;
-    background: #ba4b63;
-    margin-bottom: 10px;
+/*textarea*/ 
+.bl-areatext {
+    border:none;
+    border-bottom: 1px solid rgb(99, 99, 99);
+    box-shadow: none;
+    border-radius: 0;
 }
 /*LOCATION*/
 .location {
