@@ -42,9 +42,6 @@ body {
 /*STAR*/
 .header-content i {
     font-size: 30px;
-}
-.header-content.divide { /*vince per specificità*/
-   /* max-width: 300px; */
 } 
 .header-content .bar-star-1 {
     width: 100px;
@@ -113,10 +110,6 @@ img {
     color: white;
     background: #1abc9c;
 } 
-.about-h2 {
-    font-size: 16px;
-    font-weight: bold;
-}
 /*ABOUT STELLA*/
 .bg-about i {
     font-size: 30px;
@@ -138,6 +131,11 @@ img {
     position: relative;
     bottom: 35px;
     left: 75px;
+}
+.bg-about h2 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
 }
 /*ABOUT TEXT*/
 .about-text {
@@ -202,3 +200,18 @@ img {
     background: salmon;
 }
 
+/*media per il tablet*/
+@media screen and (min-width:768px) {
+    /*spazio del header*/
+    .bg-about h2 {
+        font-size: 30px;
+    }
+
+    
+}
+
+/*media per il pc*/
+@media screen and (min-width:970px) {
+    /*spazio del header*/
+   
+}
