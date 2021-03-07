@@ -240,11 +240,12 @@ img {
 
 /*footer*/
 .footer {
-    height: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 600;
+    color: #fff;
     background: #2c3e50;
 }
 .footer-text {
-    height: 20px;
-    margin-top: 20px;
-    background: salmon;
+    padding-top: 40px;
 }
