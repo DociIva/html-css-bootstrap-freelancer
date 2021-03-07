@@ -144,6 +144,7 @@ img {
 }
 /*ABOUT BOTTONE*/
 .bottone {
+    padding-top: 20px;
     padding-bottom: 30px;
 }
 .bottone .btn{
@@ -192,12 +193,12 @@ img {
     border: none;
     border-radius: 0;
     box-shadow: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(202, 189, 189);
 }
 /*textarea*/ 
 .bl-areatext {
     border:none;
-    border-bottom: 1px solid rgb(99, 99, 99);
+    border-bottom: 1px solid rgb(153, 153, 153);
     box-shadow: none;
     border-radius: 0;
 }
@@ -234,20 +235,4 @@ img {
     height: 20px;
     margin-top: 20px;
     background: salmon;
-}
-
-/*media per il tablet*/
-@media screen and (min-width:768px) {
-    /*spazio del header*/
-    .bg-about h2 {
-        font-size: 30px;
-    }
-
-    
-}
-
-/*media per il pc*/
-@media screen and (min-width:970px) {
-    /*spazio del header*/
-   
 }
