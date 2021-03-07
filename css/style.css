@@ -72,13 +72,13 @@ img {
     border-radius: 15px;
     margin-bottom: 15px;
 }
-
+/*SEZIONE H2 MAIN HERO*/
 .main-hero h2 {   
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 0;
+    color: #2c3e50;
 }
-
 /*STELLA*/
 .main-hero i {
     font-size: 30px;
@@ -232,13 +232,11 @@ img {
 .color-b {
     color: #1abc9c;
 }
-
 .info {
     height: 10px;
     background: #ccb2a3;
     margin-bottom: 10px;
 }
-
 /*footer*/
 .footer {
     text-align: center;
