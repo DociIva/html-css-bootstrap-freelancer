@@ -67,11 +67,12 @@ body {
     text-align: center;
 }
 /*IMMAGINI*/
-img {
-    width: 270px;
-    border-radius: 15px;
-    margin-bottom: 15px;
+.imag {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5%;
 }
+
 /*SEZIONE H2 MAIN HERO*/
 .main-hero h2 {   
     font-weight: bold;
