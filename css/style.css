@@ -151,6 +151,7 @@ img {
     background:#1abc9c;
     color: white;
     box-shadow: none;
+    border: 1px solid #fff;
 }
 .bottone .btn:hover {
     background: white;
@@ -198,7 +199,7 @@ img {
 /*textarea*/ 
 .bl-areatext {
     border:none;
-    border-bottom: 1px solid rgb(130, 130, 130);
+    border-bottom: 1px solid rgb(202, 189, 189);
     box-shadow: none;
     border-radius: 0;
 }
